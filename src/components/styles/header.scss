@@ -1,0 +1,28 @@
+.header-container {
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  margin-right: 64px;
+}
+.home{
+  position: relative;
+}
+.about{
+  position: relative;
+}
+.work{
+  position: relative;
+}
+.contact{
+  position: relative;
+}
+.circle {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  animation-delay: .1s;
+}
