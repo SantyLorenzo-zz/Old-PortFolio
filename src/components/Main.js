@@ -14,12 +14,12 @@ class Main extends React.Component {
         </section>
         <section style={{backgroundColor:'Black'}} className='about-container'>
           <div className=''>
-            <div className=''>
+            <div className='mySelf'>
               <h2>Who I am..</h2>
               <p>Hello! My name is Santiago. I'm a Software Developer</p>
               <p>As many other people, i enjoy spending my free time encreasing my knowledge of web development and building new and challenging projects.</p>
             </div>
-            <div className=''></div>
+            <div className='myPicture'></div>
           </div>
         </section>
       </main>

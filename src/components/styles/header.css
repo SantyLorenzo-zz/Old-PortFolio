@@ -4,19 +4,24 @@
   font-weight: 200;
   margin-right: 64px;
 }
-.home{
+
+.header-container .home {
   position: relative;
 }
-.about{
+
+.header-container .about {
   position: relative;
 }
-.work{
+
+.header-container .work {
   position: relative;
 }
-.contact{
+
+.header-container .contact {
   position: relative;
 }
-.circle {
+
+.header-container .circle {
   height: 4px;
   width: 4px;
   border-radius: 50%;
@@ -24,5 +29,5 @@
   position: absolute;
   bottom: 10px;
   left: 50%;
-  animation-delay: .1s;
 }
+/*# sourceMappingURL=header.css.map */

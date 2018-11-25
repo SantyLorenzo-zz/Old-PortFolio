@@ -3,8 +3,9 @@
   padding: 0px;
 }
 
-.full-container{
+* .full-container {
   background: url(../images/computerBackground.jpg);
   background-size: cover;
   height: 100vh;
 }
+/*# sourceMappingURL=app.css.map */
