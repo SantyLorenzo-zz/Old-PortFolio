@@ -2,7 +2,9 @@
   background: transparent;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  margin-right: 64px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .header-container .home {
@@ -17,8 +19,13 @@
   position: relative;
 }
 
+.header-container .skills {
+  position: relative;
+}
+
 .header-container .contact {
   position: relative;
+  margin-right: 128px;
 }
 
 .header-container .circle {
@@ -29,5 +36,9 @@
   position: absolute;
   bottom: 10px;
   left: 50%;
+}
+
+.header-container .brand-logo {
+  margin-left: 24px;
 }
 /*# sourceMappingURL=header.css.map */

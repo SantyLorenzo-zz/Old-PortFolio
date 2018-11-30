@@ -2,20 +2,31 @@
   background: transparent;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  margin-right: 64px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 
   .home{
     position: relative;
   }
+
   .about{
     position: relative;
   }
+
   .work{
     position: relative;
   }
-  .contact{
+
+  .skills {
     position: relative;
   }
+
+  .contact{
+    position: relative;
+    margin-right: 128px;
+  }
+  
   .circle {
     height: 4px;
     width: 4px;
@@ -24,6 +35,9 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
+  }
+  .brand-logo {
+    margin-left: 24px;
   }
 }
 

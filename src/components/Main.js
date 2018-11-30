@@ -1,25 +1,100 @@
 import React from 'react'
 import './styles/main.css'
+import Carousel from './Carousel'
+import dissie from './images/dissie.png'
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state={
+      currentProject: '',
+      currentClass:'image'
+    }
+  }
 
 	render() {
+    const carouselData = [
+      {
+        image: dissie,
+        link: 'https://dissie-app.firebaseapp.com/',
+        key: '1'
+      },
+      {
+        image: dissie,
+        link: 'https://dissie-app.firebaseapp.com/',
+        key: '2'
+      },
+      {
+        image: dissie,
+        link: 'https://dissie-app.firebaseapp.com/',
+        key: '3'
+      },
+      {
+        image: dissie,
+        link: 'https://dissie-app.firebaseapp.com/',
+        key: '4'
+      },
+      {
+        image: dissie,
+        link: 'https://dissie-app.firebaseapp.com/',
+        key: '5'
+      }
+    ]
 		return (
 			<main>
-        <section className='home-container'>
+        <section id='home-container' className='home-container'>
           <div className='names'>
             <h1 className='animated fadeIn'>Santiago Lorenzo</h1>
-            <p className='animated fadeIn'>Front-End Developer</p>
+            <p className='animated fadeIn delay-1s'>Front-End Developer</p>
           </div>
         </section>
-        <section style={{backgroundColor:'Black'}} className='about-container'>
-          <div className=''>
+        <section id='about-container' className='about-container'>
+          <div className='myContainer'>
             <div className='mySelf'>
-              <h2>Who I am..</h2>
-              <p>Hello! My name is Santiago. I'm a Software Developer</p>
-              <p>As many other people, i enjoy spending my free time encreasing my knowledge of web development and building new and challenging projects.</p>
+              <h2>Who am I...</h2>
+              <h4>Hello! My name is Santiago. I'm a Software Developer</h4>
+              <p>As many other people, I enjoy spending my free time encreasing my knowledge of web development and building new and challenging projects.</p>
             </div>
-            <div className='myPicture'></div>
+            <div className='myPicture' />
+          </div>
+        </section>
+        <section id='work-container' className='work-container'>
+          <div className='title'>
+            <h3>My Lastest Work</h3>  
+          </div>
+          <div className='text'>
+            <p>Some of my gratest and latest projects.</p>
+          </div>
+          <Carousel data={carouselData} />
+        </section>
+        <section id='skills-container' className='skills-container'>
+          <div className='title'>
+            <p>Technological Skills:</p>
+          </div>
+          <div className='subtitle'>
+            <p>I always enjoy learning new things. Specially the technologies that makes your company special. </p>
+          </div>
+          <div className='skills'>
+            <div className='knowledge'>
+              <div className='column'>
+                <div className='row'>Semantic HTML5</div>
+                <div className='row'>Responsive CSS3</div>
+                <div className='row'>JavaScript</div>
+                <div className='row'>React JS</div>
+              </div>
+              <div className='column'>
+                <div className='row'>NPM</div>
+                <div className='row'>Material Design</div>
+                <div className='row'>SASS-SCSS</div>
+                <div className='row'>Redux</div>
+              </div>
+              <div className='column'>
+                <div className='row'>GIT</div>
+                <div className='row'>Clean Code</div>
+                <div className='row'>Problem Solver</div>
+                <div className='row'>Github</div>
+              </div>
+            </div>
           </div>
         </section>
       </main>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Main from './Main'
+import Footer from './Footer'
 import './styles/app.css'
 
 class App extends React.Component {
@@ -10,6 +11,7 @@ class App extends React.Component {
 			<div className='full-container'>
 				<Header />
 				<Main />
+				<Footer />
 			</div>
 		)
 	}

@@ -1,0 +1,44 @@
+.about-container{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .myContainer {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .mySelf {
+      width: 45%;
+      height: 40vh;
+      border-right: none;
+      font-weight: 300;
+
+      h2{
+        margin: 10px;
+        font-weight: 500;
+      }
+      h4{
+        margin: 10px 5px 0 10px;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      p{
+        margin: 20px 5px 0 10px;
+      }
+    }
+
+    .myPicture {
+      width: 55%;
+      height: 60vh;
+      margin-left: 20px;
+      background: url(../images/image1.jpg); 
+      background-size: cover;
+    }
+  }
+}
+
