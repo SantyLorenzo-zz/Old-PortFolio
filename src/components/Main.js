@@ -53,7 +53,7 @@ class Main extends React.Component {
             <div className='mySelf'>
               <h2>Who am I...</h2>
               <h4>Hello! My name is Santiago. I'm a Software Developer</h4>
-              <p>As many other people, I enjoy spending my free time encreasing my knowledge of web development and building new and challenging projects.</p>
+              <p>As many other people, I enjoy to spend my free time Increasing my knowledge of web development and building new and challenging projects.</p>
             </div>
             <div className='myPicture' />
           </div>
@@ -63,7 +63,7 @@ class Main extends React.Component {
             <h3>My Lastest Work</h3>  
           </div>
           <div className='text'>
-            <p>Some of my gratest and latest projects.</p>
+            <p>Some of my greatest and latest projects.</p>
           </div>
           <Carousel data={carouselData} />
         </section>
@@ -72,7 +72,7 @@ class Main extends React.Component {
             <p>Technological Skills:</p>
           </div>
           <div className='subtitle'>
-            <p>I always enjoy learning new things. Specially the technologies that makes your company special. </p>
+            <p>I enjoy to be always learning new things. Specially the technologies that makes your company special. </p>
           </div>
           <div className='skills'>
             <div className='knowledge'>
