@@ -2,6 +2,7 @@ import React from 'react'
 import './styles/main.css'
 import Carousel from './Carousel'
 import dissie from './images/dissie.png'
+import laplatapesos from './images/laplatapesos.png'
 
 class Main extends React.Component {
   constructor(props) {
@@ -20,8 +21,8 @@ class Main extends React.Component {
         key: '1'
       },
       {
-        image: dissie,
-        link: 'https://dissie-app.firebaseapp.com/',
+        image: laplatapesos,
+        link: 'http://laplatapesos.com.ar/',
         key: '2'
       },
       {
@@ -30,8 +31,8 @@ class Main extends React.Component {
         key: '3'
       },
       {
-        image: dissie,
-        link: 'https://dissie-app.firebaseapp.com/',
+        image: laplatapesos,
+        link: 'http://laplatapesos.com.ar/',
         key: '4'
       },
       {
