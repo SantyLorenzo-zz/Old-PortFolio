@@ -3,6 +3,7 @@ import './styles/main.css'
 import Carousel from './Carousel'
 import dissie from './images/dissie.png'
 import laplatapesos from './images/laplatapesos.png'
+import unsplashImage from './images/unsplash.png' 
 
 class Main extends React.Component {
   constructor(props) {
@@ -26,8 +27,8 @@ class Main extends React.Component {
         key: '2'
       },
       {
-        image: dissie,
-        link: 'https://dissie-app.firebaseapp.com/',
+        image: unsplashImage,
+        link: 'https://unsplash-image-searcher.netlify.com/',
         key: '3'
       },
       {
