@@ -13,7 +13,7 @@ class Header extends React.Component {
   render() {
     const { currentItem } = this.state
     return (
-      <Navbar class='header-container' brand='SL' right>
+      <Navbar class='header-container'>
         <NavItem href='#home-container' onFocus={() => this.setState({ currentItem: 'Home' })} className='home'>
           <p>Home</p>
           {currentItem === 'Home' ? 

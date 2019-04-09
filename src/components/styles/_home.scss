@@ -4,9 +4,9 @@
   font-weight: 200;
   display:flex;
   flex-direction: row;
-  height: 90vh;
+  height: 100vh;
   
-  .names{
+  .title-container{
     height: 100%;
     width: 100%;
     position: relative;
@@ -14,14 +14,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    .titles{
+      width: 700px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   
-    h1{
-      position: absolute;
-      font-size: 64px;
-      font-weight: 300;
-      margin: 10;
-      top: 150px;
-      animation-delay: .3s
+      h1{
+        font-size: 64px;
+        font-weight: 300;
+        animation-delay: .3s;
+      }
     }
   }
 }

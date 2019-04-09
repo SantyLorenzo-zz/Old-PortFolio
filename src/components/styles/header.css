@@ -5,27 +5,42 @@
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-container .home {
   position: relative;
+  width: 120px;
+  text-align: center;
 }
 
 .header-container .about {
   position: relative;
+  width: 120px;
+  text-align: center;
 }
 
 .header-container .work {
   position: relative;
+  width: 120px;
+  text-align: center;
 }
 
 .header-container .skills {
   position: relative;
+  width: 120px;
+  text-align: center;
 }
 
 .header-container .contact {
   position: relative;
-  margin-right: 128px;
+  width: 120px;
+  text-align: center;
 }
 
 .header-container .circle {

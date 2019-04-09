@@ -9,10 +9,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 90vh;
+  height: 100vh;
 }
 
-.home-container .names {
+.home-container .title-container {
   height: 100%;
   width: 100%;
   position: relative;
@@ -31,12 +31,27 @@
           align-items: center;
 }
 
-.home-container .names h1 {
-  position: absolute;
+.home-container .title-container .titles {
+  width: 700px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-container .title-container .titles h1 {
   font-size: 64px;
   font-weight: 300;
-  margin: 10;
-  top: 150px;
   -webkit-animation-delay: .3s;
           animation-delay: .3s;
 }

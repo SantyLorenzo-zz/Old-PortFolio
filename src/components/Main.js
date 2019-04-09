@@ -3,7 +3,9 @@ import './styles/main.css'
 import Carousel from './Carousel'
 import dissie from './images/dissie.png'
 import laplatapesos from './images/laplatapesos.png'
-import unsplashImage from './images/unsplash.png' 
+import unsplashImage from './images/unsplash.png'
+import barberia from './images/stylish.png'
+import rickAndMorty from './images/rick.png'
 
 class Main extends React.Component {
   constructor(props) {
@@ -32,22 +34,24 @@ class Main extends React.Component {
         key: '3'
       },
       {
-        image: laplatapesos,
-        link: 'http://laplatapesos.com.ar/',
+        image: barberia,
+        link: 'https://personalwebsites1.netlify.com/',
         key: '4'
       },
       {
-        image: dissie,
-        link: 'https://dissie-app.firebaseapp.com/',
+        image: rickAndMorty,
+        link: 'https://rick-and-morty-img-search.netlify.com/',
         key: '5'
       }
     ]
 		return (
 			<main>
         <section id='home-container' className='home-container'>
-          <div className='names'>
-            <h1 className='animated fadeIn'>Santiago Lorenzo</h1>
-            <p className='animated fadeIn delay-1s'>Front-End Developer</p>
+          <div className='title-container'>
+            <div className='titles'>
+              <h1 className='animated fadeIn'>Santiago Lorenzo</h1>
+              <p className='animated fadeIn delay-1s'>Front-End Developer</p>
+            </div>
           </div>
         </section>
         <section id='about-container' className='about-container'>

@@ -5,26 +5,37 @@
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
+  display: flex;
+  justify-content: center;
 
   .home{
     position: relative;
+    width: 120px;
+    text-align: center;
   }
 
   .about{
     position: relative;
+    width: 120px;
+    text-align: center;
   }
 
   .work{
     position: relative;
+    width: 120px;
+    text-align: center;
   }
 
   .skills {
     position: relative;
+    width: 120px;
+    text-align: center;
   }
 
   .contact{
     position: relative;
-    margin-right: 128px;
+    width: 120px;
+    text-align: center;
   }
   
   .circle {
